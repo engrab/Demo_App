@@ -14,6 +14,10 @@ class MainActivity : AppCompatActivity() {
 
         topAppBar = findViewById(R.id.topAppbar)
 
+        topAppBar.setNavigationOnClickListener {
+            Toast.makeText(this, "Drawer Item is clicked", Toast.LENGTH_LONG).show()
+        }
+
         topAppBar.setOnMenuItemClickListener {
 
             when(it.itemId){

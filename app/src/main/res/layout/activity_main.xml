@@ -17,6 +17,7 @@
            app:navigationIcon="@drawable/baseline_menu_24"
            app:title="@string/app_name"
            app:menu="@menu/top_menu"
+           app:titleTextColor="@color/white"
            android:id="@+id/topAppbar"/>
    </com.google.android.material.appbar.AppBarLayout>
 
