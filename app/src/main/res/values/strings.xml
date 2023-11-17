@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Demo App</string>
+    <string name="favorite">Favourite</string>
+    <string name="content_description_favorite">favourite button click</string>
+    <string name="share">Share</string>
+    <string name="content_description_search">share button click</string>
+    <string name="more">more\n</string>
+    <string name="content_description_more">More button click\n</string>
+    <string name="setting">Setting</string>
 </resources>
